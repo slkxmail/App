@@ -1,0 +1,30 @@
+{{ BEGIN multiple_input_context }}
+{{ BEGIN label_context }}
+<label for="{{ $id }}">{{ $label }}</label>
+{{ END }}
+{{ IF $message_context }}
+<ul>
+    {{ BEGIN message_context }}
+    <li>[{{ $code }}]: {{ $message }}</li>
+    {{ END }}
+</ul>
+{{ END }}
+{{ BEGIN input_context }}
+{{ BEGIN label_context }}
+<h1>{{ $label }}</h1>
+{{ END }}
+<input
+{{ IF $id }}id="{{ $id }}"{{ END }}
+{{ IF $name }}name="{{ $name }}"{{ END }}
+{{ IF $class }}class="{{ $class }}"{{ END }}
+{{ IF $value }}value="{{ $value }}"{{ END }}
+/>
+{{ IF $message_context }}
+<ul>
+    {{ BEGIN message_context }}
+    <li>[{{ $code }}]: {{ $message }}</li>
+    {{ END }}
+</ul>
+{{ END }}
+{{ END }}
+{{ END }}

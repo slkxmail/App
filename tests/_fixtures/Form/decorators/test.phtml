@@ -1,0 +1,20 @@
+{{ BEGIN input_context }}
+{{ BEGIN label_context }}
+<label class="{{ $class }}" for="{{ $id }}">{{ $label }}</label>
+{{ END }}
+<input
+{{ IF $id }}id="{{ $id }}"{{ END }}
+{{ IF $name }}name="{{ $name }}"{{ END }}
+{{ IF $class }}class="{{ $class }}"{{ END }}
+{{ IF $value_context }}
+value="{{ BEGIN value_context }}{{ $value }}{{ END }}"
+{{ END }}
+/>
+{{ IF $message_context }}
+<ul>
+    {{ BEGIN message_context }}
+    <li>[{{ $code }}]: {{ $message }}</li>
+    {{ END }}
+</ul>
+{{ END }}
+{{ END }}

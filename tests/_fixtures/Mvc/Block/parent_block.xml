@@ -1,0 +1,393 @@
+<block name="parent_block" type="real" label="Side bar" show="true">
+    <inner_block>
+        <param name="show" type="boolean" value="true" pos="1000"/>
+        <param name="css_class" type="boolean">
+            <value>inner</value>
+            <value>clearfix</value>
+        </param>
+    </inner_block>
+
+    <param name="show" type="boolean" value="true"/>
+
+    <param name="string1" type="string" value="string value"/>
+    <param name="string2" type="string">
+        <value>string</value>
+        <value>value</value>
+    </param>
+    <param name="string3" type="string" value="some value">
+        <value>string</value>
+        <value>value</value>
+    </param>
+
+    <param name="true1" type="boolean" value="true"/>
+    <param name="true2" type="boolean" value="on"/>
+    <param name="true3" type="boolean" value="1"/>
+
+    <param name="false1" type="boolean" value="false"/>
+    <param name="false2" type="boolean" value="off"/>
+    <param name="false3" type="boolean" value="0"/>
+
+    <param name="css_class" type="boolean">
+        <value>inner</value>
+        <value>clearfix</value>
+        <param name="test" type="string" value="Some value" />
+    </param>
+
+    <block type="real" name="center_column2" label="Layout center column" show="true" pos="1">
+        <wrapper name="center_column_header" show="true">
+            <param name="css_class" value="header" />
+        </wrapper>
+
+        <block type="pseudo" name="center_column_header" show="true" pos="1">
+            <param name="css_class" value="header" />
+            <block name="search" pos="1" />
+            <block name="user_bar" pos="1">
+                <param name="show_account_link" value="false" />
+                <param name="show_settings_link" value="false" />
+            </block>
+        </block>
+
+        <block name="wrapper" type="pseudo" pos="2">
+            <css_class value="wrapper" />
+            <param name="css_class" value="wrapper" />
+
+            <block name="center_column" type="pseudo" pos="2">
+                <block name="wrapper">
+                    <block type="pseudo" name="button_list" pos="-1">
+                        <param name="css_class" value="button_list" />
+                    </block>
+                    <block name="content">
+                        <wrapper name="box_wrapper" show="1"/>
+                    </block>
+                </block>
+            </block>
+        </block>
+    </block>
+
+    <block type="real" name="center_columnaaaz" label="Layout center column" show="true" pos="1">
+        <wrapper name="center_column_header" show="true">
+            <param name="css_class" value="header" />
+        </wrapper>
+
+        <block type="pseudo" name="center_column_header" show="true" pos="1">
+            <param name="css_class" value="header" />
+            <block name="search" pos="1" />
+            <block name="user_bar" pos="1">
+                <param name="show_account_link" value="false" />
+                <param name="show_settings_link" value="false" />
+            </block>
+        </block>
+
+        <block name="wrapper" type="pseudo" pos="2">
+            <css_class value="wrapper" />
+            <param name="css_class" value="wrapper" />
+
+            <block name="center_column" type="pseudo" pos="2">
+                <block name="wrapper">
+                    <block type="pseudo" name="button_list" pos="-1">
+                        <param name="css_class" value="button_list" />
+                    </block>
+                    <block name="content">
+                        <wrapper name="box_wrapper" show="1"/>
+                    </block>
+                    <block name="parent_block" type="real" label="Side bar" show="true">
+
+                        <inner_block>
+                            <param name="show" type="boolean" value="true" pos="1000"/>
+                            <param name="css_class" type="boolean">
+                                <value>inner</value>
+                                <value>clearfix</value>
+                            </param>
+                        </inner_block>
+
+                        <param name="show" type="boolean" value="true"/>
+
+                        <param name="string1" type="string" value="string value"/>
+                        <param name="string2" type="string">
+                            <value>string</value>
+                            <value>value</value>
+                        </param>
+                        <param name="string3" type="string" value="some value">
+                            <value>string</value>
+                            <value>value</value>
+                        </param>
+
+                        <param name="true1" type="boolean" value="true"/>
+                        <param name="true2" type="boolean" value="on"/>
+                        <param name="true3" type="boolean" value="1"/>
+
+                        <param name="false1" type="boolean" value="false"/>
+                        <param name="false2" type="boolean" value="off"/>
+                        <param name="false3" type="boolean" value="0"/>
+
+                        <param name="css_class" type="boolean">
+                            <value>inner</value>
+                            <value>clearfix</value>
+                            <param name="test" type="string" value="Some value" />
+                        </param>
+
+                        <block type="real" name="center_column2" label="Layout center column" show="true" pos="1">
+                            <wrapper name="center_column_header" show="true">
+                                <param name="css_class" value="header" />
+                            </wrapper>
+
+                            <block type="pseudo" name="center_column_header" show="true" pos="1">
+                                <param name="css_class" value="header" />
+                                <block name="search" pos="1" />
+                                <block name="user_bar" pos="1">
+                                    <param name="show_account_link" value="false" />
+                                    <param name="show_settings_link" value="false" />
+                                </block>
+                            </block>
+
+                            <block name="wrapper" type="pseudo" pos="2">
+                                <css_class value="wrapper" />
+                                <param name="css_class" value="wrapper" />
+
+                                <block name="center_column" type="pseudo" pos="2">
+                                    <block name="wrapper">
+                                        <block type="pseudo" name="button_list" pos="-1">
+                                            <param name="css_class" value="button_list" />
+                                        </block>
+                                        <block name="content">
+                                            <wrapper name="box_wrapper" show="1"/>
+                                        </block>
+                                    </block>
+                                </block>
+                            </block>
+                        </block>
+
+                        <block type="real" name="center_columnaaaz" label="Layout center column" show="true" pos="1">
+                            <wrapper name="center_column_header" show="true">
+                                <param name="css_class" value="header" />
+                            </wrapper>
+
+                            <block type="pseudo" name="center_column_header" show="true" pos="1">
+                                <param name="css_class" value="header" />
+                                <block name="search" pos="1" />
+                                <block name="user_bar" pos="1">
+                                    <param name="show_account_link" value="false" />
+                                    <param name="show_settings_link" value="false" />
+                                </block>
+                            </block>
+
+                            <block name="wrapper" type="pseudo" pos="2">
+                                <css_class value="wrapper" />
+                                <param name="css_class" value="wrapper" />
+
+                                <block name="center_column" type="pseudo" pos="2">
+                                    <block name="wrapper">
+                                        <block type="pseudo" name="button_list" pos="-1">
+                                            <param name="css_class" value="button_list" />
+                                        </block>
+                                        <block name="content">
+                                            <wrapper name="box_wrapper" show="1"/>
+                                        </block>
+                                    </block>
+                                </block>
+                            </block>
+                        </block>
+
+                    </block>
+                </block>
+            </block>
+        </block>
+        <block name="parent_block" type="real" label="Side bar" show="true">
+            <inner_block>
+                <param name="show" type="boolean" value="true" pos="1000"/>
+                <param name="css_class" type="boolean">
+                    <value>inner</value>
+                    <value>clearfix</value>
+                </param>
+            </inner_block>
+
+            <param name="show" type="boolean" value="true"/>
+
+            <param name="string1" type="string" value="string value"/>
+            <param name="string2" type="string">
+                <value>string</value>
+                <value>value</value>
+            </param>
+            <param name="string3" type="string" value="some value">
+                <value>string</value>
+                <value>value</value>
+            </param>
+
+            <param name="true1" type="boolean" value="true"/>
+            <param name="true2" type="boolean" value="on"/>
+            <param name="true3" type="boolean" value="1"/>
+
+            <param name="false1" type="boolean" value="false"/>
+            <param name="false2" type="boolean" value="off"/>
+            <param name="false3" type="boolean" value="0"/>
+
+            <param name="css_class" type="boolean">
+                <value>inner</value>
+                <value>clearfix</value>
+                <param name="test" type="string" value="Some value" />
+            </param>
+
+            <block type="real" name="center_column2" label="Layout center column" show="true" pos="1">
+                <wrapper name="center_column_header" show="true">
+                    <param name="css_class" value="header" />
+                </wrapper>
+
+                <block type="pseudo" name="center_column_header" show="true" pos="1">
+                    <param name="css_class" value="header" />
+                    <block name="search" pos="1" />
+                    <block name="user_bar" pos="1">
+                        <param name="show_account_link" value="false" />
+                        <param name="show_settings_link" value="false" />
+                    </block>
+                </block>
+
+                <block name="wrapper" type="pseudo" pos="2">
+                    <css_class value="wrapper" />
+                    <param name="css_class" value="wrapper" />
+
+                    <block name="center_column" type="pseudo" pos="2">
+                        <block name="wrapper">
+                            <block type="pseudo" name="button_list" pos="-1">
+                                <param name="css_class" value="button_list" />
+                            </block>
+                            <block name="content">
+                                <wrapper name="box_wrapper" show="1"/>
+                            </block>
+                        </block>
+                    </block>
+                </block>
+            </block>
+
+            <block type="real" name="center_columnaaaz" label="Layout center column" show="true" pos="1">
+                <wrapper name="center_column_header" show="true">
+                    <param name="css_class" value="header" />
+                </wrapper>
+
+                <block type="pseudo" name="center_column_header" show="true" pos="1">
+                    <param name="css_class" value="header" />
+                    <block name="search" pos="1" />
+                    <block name="user_bar" pos="1">
+                        <param name="show_account_link" value="false" />
+                        <param name="show_settings_link" value="false" />
+                    </block>
+                </block>
+
+                <block name="wrapper" type="pseudo" pos="2">
+                    <css_class value="wrapper" />
+                    <param name="css_class" value="wrapper" />
+
+                    <block name="center_column" type="pseudo" pos="2">
+                        <block name="wrapper">
+                            <block type="pseudo" name="button_list" pos="-1">
+                                <param name="css_class" value="button_list" />
+                            </block>
+                            <block name="content">
+                                <wrapper name="box_wrapper" show="1"/>
+                            </block>
+                            <block name="parent_block" type="real" label="Side bar" show="true">
+
+                                <inner_block>
+                                    <param name="show" type="boolean" value="true" pos="1000"/>
+                                    <param name="css_class" type="boolean">
+                                        <value>inner</value>
+                                        <value>clearfix</value>
+                                    </param>
+                                </inner_block>
+
+                                <param name="show" type="boolean" value="true"/>
+
+                                <param name="string1" type="string" value="string value"/>
+                                <param name="string2" type="string">
+                                    <value>string</value>
+                                    <value>value</value>
+                                </param>
+                                <param name="string3" type="string" value="some value">
+                                    <value>string</value>
+                                    <value>value</value>
+                                </param>
+
+                                <param name="true1" type="boolean" value="true"/>
+                                <param name="true2" type="boolean" value="on"/>
+                                <param name="true3" type="boolean" value="1"/>
+
+                                <param name="false1" type="boolean" value="false"/>
+                                <param name="false2" type="boolean" value="off"/>
+                                <param name="false3" type="boolean" value="0"/>
+
+                                <param name="css_class" type="boolean">
+                                    <value>inner</value>
+                                    <value>clearfix</value>
+                                    <param name="test" type="string" value="Some value" />
+                                </param>
+
+                                <block type="real" name="center_column2" label="Layout center column" show="true" pos="1">
+                                    <wrapper name="center_column_header" show="true">
+                                        <param name="css_class" value="header" />
+                                    </wrapper>
+
+                                    <block type="pseudo" name="center_column_header" show="true" pos="1">
+                                        <param name="css_class" value="header" />
+                                        <block name="search" pos="1" />
+                                        <block name="user_bar" pos="1">
+                                            <param name="show_account_link" value="false" />
+                                            <param name="show_settings_link" value="false" />
+                                        </block>
+                                    </block>
+
+                                    <block name="wrapper" type="pseudo" pos="2">
+                                        <css_class value="wrapper" />
+                                        <param name="css_class" value="wrapper" />
+
+                                        <block name="center_column" type="pseudo" pos="2">
+                                            <block name="wrapper">
+                                                <block type="pseudo" name="button_list" pos="-1">
+                                                    <param name="css_class" value="button_list" />
+                                                </block>
+                                                <block name="content">
+                                                    <wrapper name="box_wrapper" show="1"/>
+                                                </block>
+                                            </block>
+
+                                        </block>
+                                    </block>
+                                </block>
+
+                                <block type="real" name="center_columnaaaz" label="Layout center column" show="true" pos="1">
+                                    <wrapper name="center_column_header" show="true">
+                                        <param name="css_class" value="header" />
+                                    </wrapper>
+
+                                    <block type="pseudo" name="center_column_header" show="true" pos="1">
+                                        <param name="css_class" value="header" />
+                                        <block name="search" pos="1" />
+                                        <block name="user_bar" pos="1">
+                                            <param name="show_account_link" value="false" />
+                                            <param name="show_settings_link" value="false" />
+                                        </block>
+                                    </block>
+
+                                    <block name="wrapper" type="pseudo" pos="2">
+                                        <css_class value="wrapper" />
+                                        <param name="css_class" value="wrapper" />
+
+                                        <block name="center_column" type="pseudo" pos="2">
+                                            <block name="wrapper">
+                                                <block type="pseudo" name="button_list" pos="-1">
+                                                    <param name="css_class" value="button_list" />
+                                                </block>
+                                                <block name="content">
+                                                    <wrapper name="box_wrapper" show="1"/>
+                                                </block>
+                                            </block>
+                                        </block>
+                                    </block>
+                                </block>
+                            </block>
+                        </block>
+                    </block>
+                </block>
+            </block>
+        </block>
+    </block>
+
+</block>
