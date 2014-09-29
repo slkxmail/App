@@ -162,10 +162,11 @@ abstract class AbstractAction
         $view->content = $view->render($viewScript);
 
         if($request->getPost('ajaxForm')) {
+            $title = $view->ajaxTitle?:$view->metaTitle;
             $jsonData = array(
                 'status' => $view->responseStatus?:'ok',
                 'data' => array(
-                    'title' => $view->metaTitle,   // Заголовок окна
+                    'title' => $title,   // Заголовок окна
                     'content' => $view->content// Содержимое окна
                 )
             );
