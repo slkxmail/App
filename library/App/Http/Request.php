@@ -69,7 +69,7 @@ class Request
             return $_POST;
         }
 
-        return isset($_POST[$name]) ? $_POST[$name] : $default;
+        return isset($_POST[$name])&&!empty($_POST[$name]) ? $_POST[$name] : $default;
     }
 
     public function getEnv($name = null, $default = null)

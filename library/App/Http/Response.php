@@ -206,6 +206,7 @@ class Response
         $this->setHeader('Location', $url, true)
             ->setHttpResponseCode($code);
 
+        $this->_isRedirect = true;
         return $this;
     }
 
