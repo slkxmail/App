@@ -174,15 +174,15 @@ class Request
 
     public function getParamAsCascade($key = null, $default = null)
     {
-        if (isset($this->params[$key])) {
+        if (isset($this->params[$key]) && !empty($this->params[$key])) {
             return $this->params[$key];
         }
 
-        if (isset($this->post[$key])) {
+        if (isset($this->post[$key]) && !empty($this->post[$key])) {
             return $this->post[$key];
         }
 
-        if (isset($this->get[$key])) {
+        if (isset($this->get[$key]) && !empty($this->get[$key])) {
             return $this->get[$key];
         }
 
